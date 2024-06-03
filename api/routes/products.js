@@ -100,6 +100,26 @@ router.patch('/:productId', (req, res, next) => {
     // res.status(200).json({
     //     message: "Updated product!"
     // }); 
+
+/*
+
+    example of patch request
+    [
+        {
+            "propName": "name",
+            "value": "Harry Potter and the Goblet of Fire"
+        },
+        {
+            "propName": "price",
+            "value": 50.00
+        }
+    ]
+
+
+*/
+
+
+
 });
 
 router.delete('/:productId', (req, res, next) => { 
